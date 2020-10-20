@@ -1,24 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Banner from './components/Banner/Banner';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import ProductCard from './components/ProductCard/ProductCard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <Banner />
+      <div className="app__container">
+        <div className="app__introHeadline">
+          <h1>Intro Headline</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            aliquam eget ipsum et semper. Phasellus non neque non velit
+            ultricies hendrerit vel eget mauris. Sed sit amet molestie sem, vel
+            vehicula velit. Donec iaculis, urna eget viverra tristique, turpis
+            lorem auctor nulla, at dignissim mi metus eget velit. Nam nec
+            iaculis purus. Aenean nec interdum lacus, id eleifend metus.
+            Suspendisse laoreet arcu sed tristique imperdiet. Praesent
+            sollicitudin quam id elit laoreet, a ultrices enim ultrices. Aenean
+            laoreet nunc quam, gravida tempus purus rutrum a.
+          </p>
+        </div>
+        <div className="app__products">
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+        </div>
+        <Footer />
+      </div>
     </div>
   );
 }

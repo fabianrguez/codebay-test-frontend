@@ -1,0 +1,15 @@
+.basketItem {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin: 10px;
+}
+
+.basketItem > img {
+  object-fit: cover;
+  width: 80px;
+  height: 100px;
+  margin-right: 25px;
+}
