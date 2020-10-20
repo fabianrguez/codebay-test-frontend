@@ -82,13 +82,14 @@
 }
 
 .header__basketPopup .MuiPaper-root {
-  padding: 10px;
+  padding: 20px;
   width: 350px;
 }
 
 .header__basketItems {
   height: 300px;
   overflow-y: scroll;
+  margin-bottom: 15px;
 }
 
 .header__basketInfo {
@@ -99,8 +100,18 @@
 }
 
 .header__basketCheckout {
-  background-color: turquoise !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__basketCheckoutBtn {
+  background-color: #a9ddd6 !important;
   margin-top: 10px;
+}
+
+.header__basket .MuiSvgIcon-root {
+  color: white !important;
 }
 
 @media only screen and (max-width: 648px) {
@@ -129,6 +140,10 @@
   .header__closeMobileMenu {
     display: flex !important;
     align-self: flex-end;
+  }
+
+  .header__closeMobileMenu .MuiSvgIcon-root {
+    color: #a9ddd6 !important;
   }
 
   .header__menuToggle {

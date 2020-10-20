@@ -9,10 +9,10 @@ function BasketItem({ image, title, price }) {
         alt=""
       />
       <div className="basketItem__info">
-        <h4>Item name</h4>
-        <p>
+        <h3>
           <span>$</span>99.00
-        </p>
+        </h3>
+        <h4>Item name</h4>
       </div>
     </div>
   );

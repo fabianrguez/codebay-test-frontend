@@ -13,3 +13,12 @@
   height: 100px;
   margin-right: 25px;
 }
+
+.basketItem__info {
+  display: flex;
+  align-items: flex-end;
+  flex: 1;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+}

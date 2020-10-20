@@ -31,8 +31,7 @@ function Footer() {
         </div>
       </footer>
       <div className="footer__companyInfo">
-        ©{new Date().getFullYear()} AcmeWidgets. All Rights Reserved. Support:
-        Support@AcmeWidgets.com
+        {`©${new Date().getFullYear()} AcmeWidgets. All Rights Reserved. Support:Support@AcmeWidgets.com`}
       </div>
     </div>
   );

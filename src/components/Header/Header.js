@@ -51,7 +51,7 @@ function Header() {
             >
               <div className="header__basketInfo">
                 <h3>Basket</h3>
-                <h3>$200</h3>
+                <h2>$200</h2>
               </div>
               <div className="header__basketItems">
                 <BasketItem />
@@ -59,9 +59,11 @@ function Header() {
                 <BasketItem />
                 <BasketItem />
               </div>
-              <Button className="header__basketCheckout">
-                Proceed to checkout
-              </Button>
+              <div className="header__basketCheckout">
+                <Button className="header__basketCheckoutBtn">
+                  Proceed to checkout
+                </Button>
+              </div>
             </Popover>
           </div>
           <Avatar className="header__avatar" />
