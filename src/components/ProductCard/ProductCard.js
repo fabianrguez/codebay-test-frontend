@@ -14,9 +14,9 @@ function ProductCard() {
         </CardMedia>
         <CardContent>
           <div className="productCard__info">
-            <h2>Title</h2>
+            <h2 className="productCard__title">Title</h2>
             <h5>Category</h5>
-            <p>
+            <p className="productCard__price">
               <span>
                 <small>$</small>
               </span>
