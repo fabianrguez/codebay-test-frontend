@@ -1,19 +1,23 @@
+import { IconButton } from '@material-ui/core';
+import { Close } from '@material-ui/icons';
 import React from 'react';
 import './BasketItem.css';
 
-function BasketItem({ image, title, price }) {
+function BasketItem({ image, name, price, category }) {
   return (
     <div className="basketItem">
-      <img
-        src="https://images.unsplash.com/photo-1579338559194-a162d19bf842?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
-        alt=""
-      />
+      <img src={image} alt={name} />
       <div className="basketItem__info">
-        <h3>
-          <span>$</span>99.00
+        <h3 className="basketItem__price">
+          <span>$</span>
+          {price}
         </h3>
-        <h4>Item name</h4>
+        <h4 className="basketItem__name">{name}</h4>
+        <p className="basketItem__category">{category}</p>
       </div>
+      <IconButton>
+        <Close />
+      </IconButton>
     </div>
   );
 }

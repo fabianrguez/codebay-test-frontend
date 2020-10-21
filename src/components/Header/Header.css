@@ -9,6 +9,10 @@
   padding: 20px;
 }
 
+.header__title  {
+  text-transform: uppercase;
+}
+
 .header__navLinks {
   display: flex;
   transition: transform ease-in 0.4s;
@@ -29,45 +33,6 @@
   transform: scale(1.02);
 }
 
-.header__top {
-  background: linear-gradient(
-    90deg,
-    rgba(169, 221, 214, 1) 36%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  height: 30px;
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  justify-content: flex-end;
-  border-bottom-left-radius: 60px;
-}
-
-.header__top > * {
-  margin: 0 10px;
-}
-
-.header__avatar {
-  cursor: pointer;
-  transition: all ease 0.4s;
-}
-
-.header__avatar:hover {
-  transform: scale(1.04);
-}
-
-.header__searchContainer {
-  background-color: white;
-  border-radius: 7px;
-  padding: 0 15px;
-  display: flex;
-  align-items: center;
-}
-
-.header__searchContainer > .MuiSvgIcon-root {
-  color: lightgray;
-}
-
 .header__menuToggle {
   visibility: hidden;
 }
@@ -79,39 +44,6 @@
 
 .header__closeMobileMenu {
   display: none !important;
-}
-
-.header__basketPopup .MuiPaper-root {
-  padding: 20px;
-  width: 350px;
-}
-
-.header__basketItems {
-  height: 300px;
-  overflow-y: scroll;
-  margin-bottom: 15px;
-}
-
-.header__basketInfo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
-
-.header__basketCheckout {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.header__basketCheckoutBtn {
-  background-color: #a9ddd6 !important;
-  margin-top: 10px;
-}
-
-.header__basket .MuiSvgIcon-root {
-  color: white !important;
 }
 
 @media only screen and (max-width: 648px) {
@@ -148,11 +80,6 @@
 
   .header__menuToggle {
     visibility: visible;
-  }
-
-  .header__top {
-    flex-direction: row-reverse;
-    justify-content: flex-start;
   }
 }
 

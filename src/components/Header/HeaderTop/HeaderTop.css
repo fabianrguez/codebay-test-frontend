@@ -1,0 +1,86 @@
+.headerTop {
+  background: linear-gradient(
+    90deg,
+    rgba(169, 221, 214, 1) 36%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: flex-end;
+  border-bottom-left-radius: 60px;
+}
+
+.headerTop > * {
+  margin: 0 10px;
+}
+
+.headerTop__avatar {
+  cursor: pointer;
+  transition: all ease 0.4s;
+}
+
+.headerTop__avatar:hover {
+  transform: scale(1.04);
+}
+
+.headerTop__searchContainer {
+  background-color: white;
+  border-radius: 7px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+
+.headerTop__searchContainer > .MuiSvgIcon-root {
+  color: lightgray;
+}
+
+.headerTop__basketPopup .MuiPaper-root {
+  padding: 20px;
+  width: 350px;
+}
+
+.MuiBadge-colorPrimary {
+  background-color: #7e6afb;
+}
+
+.MuiBadge-badge {
+  font-weight: 800 !important;
+}
+
+.headerTop__basketItems {
+  height: 300px;
+  overflow-y: scroll;
+  margin-bottom: 15px;
+}
+
+.headerTop__basketInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.headerTop__basketCheckout {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.headerTop__basketCheckoutBtn {
+  background-color: #a9ddd6 !important;
+  margin-top: 10px;
+}
+
+.headerTop__basket .MuiSvgIcon-root {
+  color: white !important;
+}
+
+@media (max-width: 640px) {
+  .headerTop {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+  }
+}

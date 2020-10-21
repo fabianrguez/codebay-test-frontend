@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Banner from './components/Banner/Banner';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import ProductCard from './components/ProductCard/ProductCard';
+import data from './data.json';
 
 function App() {
+  const [products] = useState(data.products);
   return (
     <div className="app">
       <Header />
@@ -26,10 +28,10 @@ function App() {
           </p>
         </div>
         <div className="app__products">
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          {products &&
+            products.map((product, index) => (
+              <ProductCard key={index} {...product} />
+            ))}
         </div>
         <Footer />
       </div>

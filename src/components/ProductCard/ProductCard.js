@@ -2,25 +2,22 @@ import { Card, CardContent, CardMedia } from '@material-ui/core';
 import React from 'react';
 import './ProductCard.css';
 
-function ProductCard() {
+function ProductCard({ name, price, category, image }) {
   return (
     <div className="productCard">
       <Card>
         <CardMedia>
-          <img
-            src="https://images.unsplash.com/photo-1579338559194-a162d19bf842?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
-            alt=""
-          />
+          <img src={image} alt={name} />
         </CardMedia>
         <CardContent>
           <div className="productCard__info">
-            <h2 className="productCard__title">Title</h2>
-            <h5>Category</h5>
+            <h2 className="productCard__title">{name}</h2>
+            <p className="productCard__category">{category}</p>
             <p className="productCard__price">
               <span>
                 <small>$</small>
               </span>
-              88.00
+              {price}
             </p>
           </div>
         </CardContent>

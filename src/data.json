@@ -1,0 +1,72 @@
+{
+    "products": [   
+        {
+            "name": "Sneaker V1",
+            "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2055cb57-6067-4949-bd0c-585cf94c2f89/pegasus-trail-2-zapatillas-de-trail-running-fWmzwd.jpg",
+            "price": 130,
+            "category": "Training Shoes"
+        },
+        {
+            "name": "Sneaker V2",
+            "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b99990f6-a0af-438b-ab58-4038402d0bd2/superrep-go-zapatillas-de-entrenamiento-FL63Vs.jpg",
+            "price": 97.99,
+            "category": "Trail running shoes"
+        },
+        {
+            "name": "Swoosh",
+            "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0474cff3-e7a3-4596-a793-3215906e7f6c/sportswear-swoosh-pantalon-1xKTHD.jpg",
+            "price": 51.99,
+            "category": "Men's pants"
+        },
+        {
+            "name": "Backpack",
+            "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/40a5c5db-59eb-424c-b6ae-ecd75dfb46cb/elite-pro-mochila-de-baloncesto-lwVxQf.jpg",
+            "price": 54.99,
+            "category": "Basketball backpack"
+        }
+    ],
+    "banner": [
+        {
+            "original":
+              "https://images.unsplash.com/photo-1524532787116-e70228437bbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+          },
+          {
+            "original":
+              "https://images.unsplash.com/photo-1514989940723-e8e51635b782?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+          },
+          {
+            "original":
+              "https://images.unsplash.com/photo-1485395037613-e83d5c1f5290?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+          },
+          {
+            "original":
+              "https://images.unsplash.com/photo-1474494819794-90f9664b530d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80"
+          }
+    ],
+    "basket": [
+        {
+            "name": "Sneaker V1",
+            "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2055cb57-6067-4949-bd0c-585cf94c2f89/pegasus-trail-2-zapatillas-de-trail-running-fWmzwd.jpg",
+            "price": 130,
+            "category": "Training Shoes"
+        },
+        {
+            "name": "Sneaker V2",
+            "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b99990f6-a0af-438b-ab58-4038402d0bd2/superrep-go-zapatillas-de-entrenamiento-FL63Vs.jpg",
+            "price": 97.99,
+            "category": "Trail running shoes"
+        },
+        {
+            "name": "Backpack",
+            "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/40a5c5db-59eb-424c-b6ae-ecd75dfb46cb/elite-pro-mochila-de-baloncesto-lwVxQf.jpg",
+            "price": 54.99,
+            "category": "Basketball backpack"
+        },
+        {
+            "name": "Swoosh",
+            "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0474cff3-e7a3-4596-a793-3215906e7f6c/sportswear-swoosh-pantalon-1xKTHD.jpg",
+            "price": 51.99,
+            "category": "Men's pants"
+        }
+    ]
+}
