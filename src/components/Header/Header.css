@@ -9,7 +9,7 @@
   padding: 20px;
 }
 
-.header__title  {
+.header__toolbar > h1 {
   text-transform: uppercase;
 }
 
