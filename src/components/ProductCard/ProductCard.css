@@ -22,10 +22,12 @@
   position: absolute;
   top: 11px;
   right: 10px;
-  background: red;
+  background: #fff;
   padding: 5px;
   font-size: 26px;
-  transform: skewY(9deg);
+  font-weight: 600;
+  transform: skewY(10deg);
+  box-shadow: -3px -1px 10px 3px rgba(0, 0, 0, 0.6);
 }
 
 .productCard__info {
